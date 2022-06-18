@@ -1,310 +1,470 @@
 {
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john.doe@mail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "Justin Yu",
+        "label": "Software Engineer at Adobe",
+        "title": "Software Engineer",
+        "picture": "https://media-exp1.licdn.com/dms/image/C5603AQFrEHWcbUT2Sg/profile-displayphoto-shrink_800_800/0/1653278489798?e=1660780800&v=beta&t=4T-thBy1MwY6ZJq78Ydpe8kjfstr-u9zHZ6H2NUQNdw",
+        "email": "chentingyu0117@gmail.com",
+        "phone": "LinkedIn Message Please",
+        "summary": "Self-learning and self-driven software engineer interested in Cloud Engineering, and DevOps career path.",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "locationCountryCode": "US",
+            "city": "San Jose"
         },
         "profiles": [
             {
-                "network": "twitter",
-                "username": "@john"
-            },
-            {
-                "network": "Portfolio",
-                "url": "https://myawesome.portfolio.rocket.fr"
-            },
-            {
-                "network": "codingame",
-                "username": "ed3ee82f9630e99db32dec093b2ca07a0368002"
-            }, {
-                "network": "github",
-                "username": "clementdevos"
-            },
-            {
-                "network": "linkedin",
-                "url": "https://www.linkedin.com/in/%F0%9F%A5%B3-cl%C3%A9ment-devos-4b832526/"
+                "network": "LinkedIn",
+                "username": "yu-chen-ting",
+                "url": "https://www.linkedin.com/in/yu-chen-ting/"
             }
-        ]
+        ],
+        "personalDescription": "Passionate about AWS ❤️"
     },
     "work": [
         {
-            "name": "Samsung Engineering",
-            "position": "3D Cad Engineer",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Adobe",
+            "position": "Software Engineer",
+            "startDate": "2022-05-31",
+            "highlights": [],
+            "url": "https://www.linkedin.com/company/adobe/",
+            "location": "San Jose, California, United States"
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "Teaching It Right",
+            "position": "Lead Software Engineer",
+            "startDate": "2021-09-30",
+            "endDate": "2022-04-30",
+            "highlights": [],
+            "summary": "• Documented and diagrammed the company’s current AWS infrastructure by inspecting 10+ AWS services\n• Increased availability and scalability by migrating company website from single EC2 to Kubernetes\n• Increased applications’ security by finding multiple security breach, adding security group, and fixing routing in ELB",
+            "url": "https://www.linkedin.com/company/teaching-it-right/",
+            "location": "South Jordan, Utah, United States"
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
-        }
-    ],
-    "volunteer": [
+            "name": "Adobe",
+            "position": "Software Engineer Intern",
+            "startDate": "2021-05-31",
+            "endDate": "2021-08-31",
+            "highlights": [],
+            "summary": "• Saved clusters’ cost and reduced resources overhead in current microservice infrastructure in cost efficiency team\n• Developed a service to send alerts to Slack channels to inform nodes’ of CPU and memory threshold violations on Kubernetes\n• Created Grafana dashboard monitoring 20+ nodes utilization in 20+ clusters on Kubernetes to identify underutilized nodes",
+            "url": "https://www.linkedin.com/company/adobe/"
+        },
         {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "name": "Brigham Young University",
+            "position": "Web Developer",
+            "startDate": "2021-01-31",
+            "endDate": "2021-05-31",
+            "highlights": [],
+            "summary": "• Developed Copyright License Office websites using Django and AWS services such as S3, Dynamo DB, Route53, AWS Certificate Manager\n• Hosted and developed serverless websites using Zappa framework\n• Deployed applications through CI/CD using CodePipeline, CodeBuild\n• Built AWS infrastructure through AWS Cloudformation",
+            "url": "https://www.linkedin.com/school/brigham-young-university/"
+        },
+        {
+            "name": "BYU Office of Information Technology",
+            "position": "Computer Programmer",
+            "startDate": "2019-10-31",
+            "endDate": "2021-01-31",
+            "highlights": [],
+            "summary": "•\tDeveloped, refined, and maintained RESTful APIs in Flask and Python serving 100+ consumers for 5+ departments throughout organization\n•\tCreated and deployed APIs with AWS Lambda, API Gateway, and S3 Bucket through Terraform\n•\tEnhanced API flexibility and scalability by developing GraphQL in AWS AppSync\n•\tRemodeled API Gateway APIs reconciling CIs(Configuration Items) to CMDB in ServiceNow\n•\tComposed SQL queries for reading and writing to multiple database such as MSSQL, PostgreSQL, and MySQL\n•\tUtilized Vue.js, and Bootstrap-Vue to demonstrate network device data on monitoring team website",
+            "url": "https://www.linkedin.com/company/byu-office-of-information-technology-careers/"
+        },
+        {
+            "name": "Arrived Investment Company",
+            "position": "Full-Stack Developer",
+            "startDate": "2020-06-30",
+            "endDate": "2020-10-31",
+            "highlights": [],
+            "summary": "•\tDeveloped a property booking mobile application for a short-term rental management firm employing React Native, Expo, Node.js, Firebase and GCP\n•\tImproved software security by suggesting project manager to store credentials in Secret Manager instead of Firestore\n•\tProvisioned VPC for Cloud Functions to be whitelisted for Streamline PartnerX API\n•\tAutomated process to renew Streamline PartnerX API tokens every 2 months with Cloud Scheduler\n•\tProgrammed and deployed serverless compute functions interacting with external APIs in GCP",
+            "url": "https://www.linkedin.com/company/arrivedinvestmentco/"
+        },
+        {
+            "name": "Brigham Young University - Idaho",
+            "position": "Librarian aid",
+            "startDate": "2019-01-31",
+            "endDate": "2019-07-31",
+            "highlights": [],
+            "summary": "• Assisted library patrons to find materials\n• Shelved books",
+            "url": "https://www.linkedin.com/school/byu-idaho/",
+            "location": "Rexburg, Idaho"
+        },
+        {
+            "name": "Brigham Young University - Idaho",
+            "position": "Website Testor",
+            "startDate": "2019-01-31",
+            "endDate": "2019-04-30",
+            "highlights": [],
+            "summary": "• Tested various web features for an upcoming new planner website for Brigham Young University - Idaho. \n• Cooperated remotely with a web development team in India by using Jira to report issues with the beta website.",
+            "url": "https://www.linkedin.com/school/byu-idaho/",
+            "location": "Rexburg, Idaho"
+        },
+        {
+            "name": "Brigham Young University - Idaho",
+            "position": "Math Tutor",
+            "startDate": "2018-09-30",
+            "endDate": "2018-12-31",
+            "highlights": [],
+            "summary": "• Aided 30+ students to develop the ability to solve math problems by in the school math lab each day\n• Taught logarithm and trigonometric to the students to solve real-world problems",
+            "url": "https://www.linkedin.com/school/byu-idaho/",
+            "location": "Rexburg, Idaho"
         }
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "Brigham Young University",
+            "area": "Computer Science",
+            "studyType": "Bachelor of Science - BS",
+            "startDate": "2019-12-31",
+            "endDate": "2022-12-31",
+            "score": "3.97",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "certificates": [
+        {
+            "name": "Docker for Developers",
+            "issuer": "LinkedIn",
+            "startDate": "2021-01-31",
+            "url": "http://www.linkedin.com/learning/docker-for-developers-2"
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        }
-    ],
-    "awards": [
+            "name": "Learning Kubernetes",
+            "issuer": "LinkedIn",
+            "startDate": "2021-01-31",
+            "url": "http://www.linkedin.com/learning/learning-kubernetes"
+        },
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
+            "name": "Flutter: Part 01 Introduction",
+            "issuer": "LinkedIn",
+            "startDate": "2021-01-31",
+            "url": "http://www.linkedin.com/learning/flutter-part-01-introduction"
+        },
         {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "name": "Learning C#",
+            "issuer": "LinkedIn",
+            "startDate": "2021-01-31",
+            "url": "https://www.linkedin.com/learning/learning-c-sharp-3"
+        },
+        {
+            "name": "Ultimate AWS Certified Solutions Architect Associate 2021",
+            "issuer": "Udemy",
+            "startDate": "2021-05-31",
+            "url": "https://www.udemy.com/certificate/UC-0a2f8bbb-458e-4257-81c2-15b108098da7/"
+        },
+        {
+            "name": "Getting Started with Google Kubernetes Engine",
+            "issuer": "Coursera",
+            "startDate": "2021-06-30",
+            "url": "https://www.coursera.org/account/accomplishments/certificate/4JSZEQXNS5YH"
         }
     ],
+    "publications": [],
     "skills": [
         {
-            "name": "React",
-            "level": "Master",
-            "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Amazon Web Services (AWS)",
+            "level": "",
+            "index": 0
         },
         {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "SASS",
+            "level": "",
+            "keywords": []
         },
         {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "React.js",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Python",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Time Management",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Mobile Application Development",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Continuous Integration",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Jira",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Java",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Docker",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Teamwork",
+            "level": "",
+            "keywords": []
         },
         {
             "name": "Firebase",
-            "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "level": "",
+            "keywords": []
         },
         {
-            "name": "Gmail",
-            "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Amazon VPC",
+            "level": "",
+            "keywords": []
         },
         {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "name": "Kubernetes",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "TypeScript",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Full-Stack Development",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Public Speaking",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "SQL",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Django",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Git",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "AWS CodeBuild",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Flutter",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "REST APIs",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Mobile Applications",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "HTML",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Customer Service",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Cloud Event AWS",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "PostgreSQL",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "GraphQL",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Software Development",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Leadership",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "MySQL",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Terraform",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Vue.js",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "React Native",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "C++",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "AWS Lambda",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "AppSync AWS",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Node.js",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Cloud Firestore",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "JavaScript",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Amazon S3",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Python (Programming Language)",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "AWS CodePipeline",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "API Gateway AWS",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Google Cloud Platform (GCP)",
+            "level": "",
+            "keywords": []
         }
     ],
     "languages": [
-        { "language": "English", "value": 100, "fluency": "Native speaker" },
-        { "language": "Italien", "value": 15, "fluency": "Native speaker" }
-    ],
-    "interests": [
         {
-            "name": "France europe gif by nike football",
-            "gifUrl": "https://media1.giphy.com/media/3oD3YooLLYg0AfOPdK/giphy-downsized.gif?cid=f7fb5bbaegu1ofs48lty41dyowqsfo0wq9qq8h4czot7rwm1&rid=giphy-downsized.gif",
-            "id": "afa5739f-f868-464e-a1aa-18f5a3ff4e2b",
-            "gifUser": {
-                "name": "Nike Football",
-                "profileUrl": "https://giphy.com/nikefootball/",
-                "isVerified": true,
-                "profileAvatarUrl": "https://media1.giphy.com/avatars/nikefootball/vPyZcrShcXY8.jpg"
-            }
+            "language": "English"
         },
         {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-        },
-
-        {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
+            "language": "Mandarin"
         },
         {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
+            "language": "Japanese"
         }
     ],
-    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
+    "interests": [],
+    "references": [],
     "projects": [
         {
-            "index": 5,
-            "date": { "month": 11, "year": 2019 },
-            "description": "Moteur de recherche via le nom de films réalisée avec ReactJs:\nRequête à l'Api rest avec Fetch, utilisation des hooks.\n",
-            "id": "7f1f4257-e5db-477d-aa5f-ababe0ab0b12",
-            "images": [{ "url": "https://cdn.filestackcontent.com/aBOkTTkCQ66VOHUy0q8L" }],
-            "link": "https://lovely-movie.netlify.app/",
-            "name": "Lovely Movie",
-            "endDate": "2019-12-01"
+            "name": "Dating Ideas",
+            "startDate": "2021-02-28",
+            "summary": "•\tBuild a dating idea provision platform mobile application using Flutter and Spring Boot\n•\tSeparated the application using Bloc pattern, which adheres to the separation of concerns principle\n• Participated as a product manager and chief front-end developer in a team of 5 people",
+            "url": "https://github.com/CS-428-Dating-Ideas/dating-ideas-client"
         },
         {
-            "index": 2,
-            "date": { "month": 0, "year": 2020 },
-            "description": "Application de gestion de tâches réalisée avec ReactJs / Redux / Firebase :\nCréation de composants avec Styled Components, gestions de formulaires et validation des entrées, création d'une authentification, récupération / création / modification / suppression de tâches.",
-            "id": "af4181b1-8955-47fb-8dd9-17c6974335d3",
-            "images": [{ "url": "https://cdn.filestackcontent.com/G2CckiqvScC9tsrvHYg4" }],
-            "link": "https://diary-todo.netlify.app/",
-            "name": "Journal d'une Todo",
-            "endDate": "2020-01-01"
+            "name": "Tweeter",
+            "startDate": "2020-09-30",
+            "summary": "•\tBuilt a full-stack twitter clone Android app using Java, AWS Lambda, API Gateway, AWS SQS, and DynamoDB\n•\tArchitected software by adhering to design patterns such as MVP Pattern, Observer Pattern, Facade Pattern and Proxy Pattern, leading to easy data interaction\n•\tFollowed black-box testing and white-box testing technique to write 70+ test cases to examine APIs with Unit Test, resulting in a more stable and errors-less product",
+            "url": "https://github.com/JustinYuYou/CS340-milestone4",
+            "endDate": "2020-12-31"
         },
         {
-            "index": 4,
-            "date": { "month": 5, "year": 2020 },
-            "description": "Blog réalisé en Java JEE et Spring, avec création d'une base de données MySQL et connectée avec JDBC.",
-            "id": "af8c78c3-f7c6-4f3b-9c32-9d37a9032e14",
-            "images": [{ "url": "https://cdn.filestackcontent.com/rPp0wj4S2GhTr0qTcqOI" }],
-            "link": "https://btz-java-2003-pjt1-blog.javarover.wilders.dev/",
-            "name": "Charlie's Angels blog",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 3,
-            "date": { "month": 5, "year": 2020 },
-            "description": "** Pensée uniquement pour téléphone **\nApplication permettant de connaître la météo actuelle d'une ville. Réalisée afin de découvrir VueJs.",
-            "id": "c64e6ca1-6300-4d7f-a305-8cfb7c99a9e6",
-            "images": [{ "url": "https://cdn.filestackcontent.com/w5oskUihSiYCxekOn9Ba" }],
-            "link": "https://appli-meteo.netlify.app/",
-            "name": "Application Météo",
-            "endDate": "2020-06-01"
-        },
-        {
-            "index": 1,
-            "date": { "month": 7, "year": 2020 },
-            "description": "Premières armes avec Angular et Typescript :\nMise en place d'un environnement Angular, développement d'une authentification avec Firebase, gestion des formulaires, utilisation d'observable avec RxJs.\n",
-            "id": "d9f7ca32-a40a-418e-affb-317bfb4f520e",
-            "images": [{ "url": "https://cdn.filestackcontent.com/NVOhKNFQR9OQ3jtkIyHi" }],
-            "link": "https://my-connected-library.netlify.app/",
-            "name": "Librairie Connectée",
-            "endDate": "2020-08-01"
-        },
-        {
-            "index": 6,
-            "date": { "month": 4, "year": 2019 },
-            "description": "Moteur de recherche basé sur le jeu World of Warcraft, premiers pas avec ReatJs.\nRequête à l'API Raider.io avec Axios.",
-            "id": "dbe2a8d9-dd9d-443d-8ae4-7a8e0b7939f5",
-            "images": [{ "url": "https://cdn.filestackcontent.com/FSysoX0ATvqy2BFvLF21" }],
-            "link": "https://wow-search-engine.netlify.app/",
-            "name": "WoW Search",
-            "endDate": "2019-05-01"
-        },
-        {
-            "index": 0,
-            "date": { "month": 6, "year": 2020 },
-            "description": "Application réalisée en 24h (challenge de formation) avec Java JEE et Spring:\nGestion d’un CRUD, création d'une API Rest, ajout d'un environnement de production avec une base de données PostgreSQL hébergée sur Heroku.",
-            "id": "ffb8a4f2-24e6-44ef-bbe7-0593b86d40be",
-            "images": [{ "url": "https://cdn.filestackcontent.com/7XpHKtFTC2VynppurrK5" }],
-            "link": "https://your-todos-list.herokuapp.com/",
-            "name": "Your Todo List",
-            "endDate": "2020-07-01"
+            "name": "FOUNDER",
+            "startDate": "2020-02-28",
+            "summary": "•\tBuilt a business networking mobile application, targeting 10000+ users employing Flutter and Firebase\n•\tVolunteered as a project manager, leading a team of 5 people and distribute team members’ tasks\n•\tProvided business logic layer of the application and manage database interaction with Firebase",
+            "url": "https://github.com/byudevelopers/EG_Project",
+            "endDate": "2020-09-30"
         }
     ],
+    "meta": {
+        "version": "v1.0.0",
+        "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    },
     "specific": {
         "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "personalDescription": "I love coding"
         },
         "dreamJob": {
-            "locations": [{ "name": "Valenciennes, France" }, { "name": "Lille, France" }, { "name": "Paris,France" }],
-            "remoteFrequency": "regularly"
+            "locations": [
+                {
+                    "name": "Houston, US"
+                }
+            ],
+            "salary": "",
+            "perks": {
+                "challenge": true,
+                "mood": true,
+                "responsabilities": true,
+                "salary": true,
+                "training": true,
+                "work_hours": true
+            },
+            "remoteFrequency": "permanant"
         },
-        "currentJob": {
-            "issues": { "z": true, "boring_team": true }
+        "currentJob": {},
+        "education": {
+            "studiesLevel": 4
         },
-        "education": { "studiesLevel": null },
         "work": {
-            "contractTypes": ["permanent", "freelance", "internship"],
-            "codingYears": 0,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
-            "experienceYears": 0,
-            "codeExperienceYears": null,
-            "otherExperienceYears": null
+            "contractTypes": [
+                "fixedTerm",
+                "permanent"
+            ],
+            "codingYears": 4.5,
+            "searchState": "dreamjobOnly",
+            "otherExperienceYears": 1,
+            "codeExperienceYears": 1.5
         },
-        "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
-        },
-        "interestedBy": "Angular, la blochain et les chatons."
-    },
-    "resumeCustomization": {
-        "imageHeader": {
-            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
-            "alt": "Default Banner"
-        },
-        "cardsOrder": [
-            { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 4 },
-            { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
-            { "type": "experiences", "variant": 4 },
-            { "type": "studies", "variant": 4 },
-            { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
-            { "type": "language", "variant": 4 },
-            { "type": "soundtrack", "variant": 4 },
-            { "type": "social", "variant": 4 }
-        ],
-        "fields": {
-            "work": {
-                "customDateFormat": "YYYY"
-            }
-        }
+        "sound": {},
+        "interestedBy": "AWS, Kubernetes, Elastic Search"
     }
 }

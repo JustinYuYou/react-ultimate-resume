@@ -55,8 +55,7 @@ function App() {
             onCustomizationChanged={onCustomizationChanged}
             options={{
                 locale: 'en',
-                // side: 'back',
-                showContactInfos: false,
+                showContactInfos: true,
                 apiKeys: {
                     giphy: process.env.REACT_APP_GIPHY
                 },
@@ -64,21 +63,10 @@ function App() {
                     devicons:
                         'https://firebasestorage.googleapis.com/v0/b/jechercheundev.appspot.com/o/technologies%2Ftechnologies_list.json?alt=media&token=459028ba-d9bc-4480-a3c4-88633afab7e2'
                 },
-                // showContactInfos: true,
                 maxSkills: 6,
                 customization,
                 disableSortableExperience: false,
                 maxCardsPerRow: 3
-            }}
-            additionalNodes={{
-                banner: {
-                    actionsButtons: mode === 'edit' && (
-                        <Button variant="outlined" onClick={handleClick} color={'light'}>
-                            <SaveIcon className={classes.saveIcon} />
-                            <FormattedMessage id="Profile.header.jsonResume.download" defaultMessage="Export" />
-                        </Button>
-                    )
-                }
             }}
         />
     );

@@ -1,7 +1,7 @@
 import React, { memo, useCallback, useMemo } from 'react';
 
 import { FormattedMessage } from 'react-intl';
-import { useTheme } from "@mui/styles";
+import { useTheme } from '@mui/styles';
 import makeStyles from '@mui/styles/makeStyles';
 
 import chroma from 'chroma-js';
@@ -74,7 +74,7 @@ const Content = ({ hasSkill, techno, handleAddButtonClick, classes }) => {
                 <ProfileCardFrontTypography classes={{ container: classes.typography }}>
                     <FormattedMessage
                         id="Skills.front.title"
-                        defaultMessage="I mainly write {techno} stuff"
+                        defaultMessage="I mainly do {techno} stuff"
                         values={{ techno: techno?.name }}
                     />
                 </ProfileCardFrontTypography>

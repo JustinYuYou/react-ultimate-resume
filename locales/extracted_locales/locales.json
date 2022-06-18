@@ -188,7 +188,7 @@
     "id": "Developer.RemoteFrequency.Display.fullTime"
   },
   {
-    "defaultMessage": "Autres",
+    "defaultMessage": "Remote",
     "id": "Developer.RemoteFrequency.Display.other"
   },
   {
@@ -816,7 +816,7 @@
     "id": "Skills.front.action"
   },
   {
-    "defaultMessage": "I mainly write {techno} stuff",
+    "defaultMessage": "I mainly do {techno} stuff",
     "id": "Skills.front.title"
   },
   {

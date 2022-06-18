@@ -1,8 +1,7 @@
 import React, { useMemo } from 'react';
 
-import { useTheme } from "@mui/styles";
+import { useTheme } from '@mui/styles';
 import makeStyles from '@mui/styles/makeStyles';
-
 
 import { BasicsCard } from './cards_types/basics/basics_card';
 import { ProjectsCard } from './cards_types/projects/projects_card';
@@ -30,11 +29,11 @@ const CARD_TYPE_MAPPING = {
     projects: ProjectsCard,
     language: LanguagesCard,
     dreamjob: DreamJobCard,
-    gifs: GifsCard,
+    // gifs: GifsCard,
     experiences: ExperiencesCard,
     studies: StudiesCard,
     skills: SkillsCard,
-    soundtrack: SoundtrackCard,
+    // soundtrack: SoundtrackCard,
     interestedBy: InterestedByCard
 };
 

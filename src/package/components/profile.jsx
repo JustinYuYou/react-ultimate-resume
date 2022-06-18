@@ -14,8 +14,6 @@ import { Cards } from './cards/cards';
 import { styles } from './profile_styles';
 
 import en from '../i18n/en.json';
-import fr from '../i18n/fr.json';
-import tr from '../i18n/tr.json';
 import '../styles/tailwind.css';
 
 import { technologiesInitialState, technologiesReducer } from '../store/technologies/technologies_reducer';
@@ -35,9 +33,7 @@ if (!Intl.PluralRules) {
 }
 
 const messages = {
-    en,
-    fr,
-    tr
+    en
 };
 const useStyles = makeStyles(styles);
 
