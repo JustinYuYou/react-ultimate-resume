@@ -27,6 +27,7 @@
             "position": "Software Engineer",
             "startDate": "2022-05-31",
             "highlights": [],
+            "summary": "More is coming... 😉",
             "url": "https://www.linkedin.com/company/adobe/",
             "location": "San Jose, California, United States"
         },
@@ -39,6 +40,16 @@
             "summary": "• Documented and diagrammed the company’s current AWS infrastructure by inspecting 10+ AWS services\n• Increased availability and scalability by migrating company website from single EC2 to Kubernetes\n• Increased applications’ security by finding multiple security breach, adding security group, and fixing routing in ELB",
             "url": "https://www.linkedin.com/company/teaching-it-right/",
             "location": "South Jordan, Utah, United States"
+        },
+        {
+            "name": "Cobalt Speech & Language",
+            "position": "Software Engineer",
+            "startDate": "2021-08-31",
+            "endDate": "2022-04-30",
+            "highlights": [],
+            "summary": "Built a robust and production-level API of an AI model that allows customers to incorporate voice biometric security into applications.",
+            "url": "https://www.linkedin.com/company/cobalt-speech-&-language/",
+            "location": "Remote"
         },
         {
             "name": "Adobe",
@@ -161,233 +172,160 @@
     "skills": [
         {
             "name": "Amazon Web Services (AWS)",
-            "level": "",
+            "value": 70,
             "index": 0
         },
         {
-            "name": "SASS",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "React.js",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Python",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Time Management",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Mobile Application Development",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Continuous Integration",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Jira",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Java",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Docker",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Teamwork",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Firebase",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Amazon VPC",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Kubernetes",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "TypeScript",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Full-Stack Development",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Public Speaking",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "SQL",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Django",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Git",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "AWS CodeBuild",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Flutter",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "REST APIs",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Mobile Applications",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "HTML",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Customer Service",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Cloud Event AWS",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "PostgreSQL",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "GraphQL",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Software Development",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Leadership",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "MySQL",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Terraform",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Vue.js",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "React Native",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "C++",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "AWS Lambda",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "AppSync AWS",
-            "level": "",
-            "keywords": []
-        },
-        {
             "name": "Node.js",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Cloud Firestore",
-            "level": "",
-            "keywords": []
+            "value": 60
         },
         {
             "name": "JavaScript",
-            "level": "",
-            "keywords": []
+            "value": 60
+        },
+        {
+            "name": "Express.js",
+            "value": 60
+        },
+        {
+            "name": "SASS",
+            "value": 50
+        },
+        {
+            "name": "React.js",
+            "value": 50
+        },
+        {
+            "name": "AWS Lambda",
+            "value": 50
+        },
+        {
+            "name": "Python",
+            "value": 50
+        },
+        {
+            "name": "Continuous Integration",
+            "value": 50
+        },
+        {
+            "name": "Jira",
+            "value": 50
+        },
+        {
+            "name": "Java",
+            "value": 50
+        },
+        {
+            "name": "Docker",
+            "value": 50
+        },
+        {
+            "name": "Teamwork",
+            "value": 50
+        },
+        {
+            "name": "Firebase",
+            "value": 50
+        },
+        {
+            "name": "Amazon VPC",
+            "value": 50
+        },
+        {
+            "name": "Kubernetes",
+            "value": 50
+        },
+        {
+            "name": "TypeScript",
+            "value": 50
+        },
+        {
+            "name": "Full-Stack Development",
+            "value": 50
+        },
+        {
+            "name": "SQL",
+            "value": 50
+        },
+        {
+            "name": "Django",
+            "value": 50
+        },
+        {
+            "name": "Git",
+            "value": 50
+        },
+        {
+            "name": "AWS CodeBuild",
+            "value": 50
+        },
+        {
+            "name": "Flutter",
+            "value": 50
+        },
+        {
+            "name": "REST APIs",
+            "value": 50
+        },
+        {
+            "name": "Mobile Applications",
+            "value": 50
+        },
+        {
+            "name": "HTML",
+            "value": 50
+        },
+        {
+            "name": "PostgreSQL",
+            "value": 50
+        },
+        {
+            "name": "GraphQL",
+            "value": 50
+        },
+        {
+            "name": "MySQL",
+            "value": 50
+        },
+        {
+            "name": "Terraform",
+            "value": 50
+        },
+        {
+            "name": "Vue.js",
+            "value": 50
+        },
+        {
+            "name": "React Native",
+            "value": 50
+        },
+        {
+            "name": "C++",
+            "value": 50
+        },
+        {
+            "name": "AppSync AWS",
+            "value": 50
+        },
+        {
+            "name": "Cloud Firestore",
+            "value": 50
         },
         {
             "name": "Amazon S3",
-            "level": "",
-            "keywords": []
-        },
-        {
-            "name": "Python (Programming Language)",
-            "level": "",
-            "keywords": []
+            "value": 50
         },
         {
             "name": "AWS CodePipeline",
-            "level": "",
-            "keywords": []
+            "value": 50
         },
         {
             "name": "API Gateway AWS",
-            "level": "",
-            "keywords": []
+            "value": 50
         },
         {
             "name": "Google Cloud Platform (GCP)",
-            "level": "",
-            "keywords": []
+            "value": 50
         }
     ],
     "languages": [
@@ -431,15 +369,17 @@
     },
     "specific": {
         "basics": {
-            "personalDescription": "I love coding"
+            "personalDescription": "I love coding and software engineering! I truly believe the power of software and how it can benefit countless people!"
         },
         "dreamJob": {
             "locations": [
                 {
-                    "name": "Houston, US"
+                    "name": "Utah, US"
+                },
+                {
+                    "name": "Texas, US"
                 }
             ],
-            "salary": "",
             "perks": {
                 "challenge": true,
                 "mood": true,
@@ -448,7 +388,7 @@
                 "training": true,
                 "work_hours": true
             },
-            "remoteFrequency": "permanant"
+            "remoteFrequency": "fullTime"
         },
         "currentJob": {},
         "education": {
@@ -465,6 +405,11 @@
             "codeExperienceYears": 1.5
         },
         "sound": {},
-        "interestedBy": "AWS, Kubernetes, Elastic Search"
+        "interestedBy": "AWS, Kubernetes, Elastic Search",
+        "resumeCustomization": {
+            "theme": {
+                "palette": ""
+            }
+        }
     }
 }

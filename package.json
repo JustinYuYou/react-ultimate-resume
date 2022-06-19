@@ -14,7 +14,7 @@
         "build": "rimraf build && react-scripts build",
         "serve": "react-scripts build && serve build",
         "manage:translations": "formatjs extract 'src/package/**/*.+(js|jsx|ts|tsx)' --out-file locales/extracted_locales/locales.json  --format locales/formatter/formatter.js && node ./translationRunner.js",
-        "gh-deploy": "yarn build && gh-pages -d build",
+        "deploy": "yarn build && gh-pages -d build",
         "build:library": "rimraf dist && npx tailwindcss build -o ./src/package/styles/tailwind.css --minify && node ./node_modules/.bin/rollup -c",
         "version:beta": "npm version prerelease --preid=beta",
         "version:release": "npm version ${VERSION:-patch}"
